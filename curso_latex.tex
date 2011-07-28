@@ -1,0 +1,439 @@
+%\documentclass[a4paper,12pt,dvipdfm]{report}
+\documentclass[letterpaper,10pt,twoside,dvipdfm]{book}
+\usepackage{amssymb,amsmath}   % simbolos matematicos providos pela AMS
+\usepackage[brazil]{babel}           
+\usepackage[latin1]{inputenc}
+\usepackage{makeidx}  % pacote pra criacao de indice remissivo
+
+\usepackage{geometry}
+%\geometry{a4paper,left=1in,right=1in,top=1in,bottom=1in}
+
+\makeindex   % para a geração do indice remissivo, em ordem alfabetica, obvio
+
+\usepackage[T1]{fontenc}      % Lï¿½a codificacao de fonte T1 (font encoding default ï¿½0T1).
+\usepackage{ae}
+\usepackage{aecompl}
+\usepackage[dvipdfm,dvips]{graphicx} % para inclusao de figuras (png, jpg, gif, bmp)
+\usepackage{graphics}          % figuras graficas
+\usepackage{color}             % para letras e caixas coloridas
+
+%
+% instalar pacote %\usepackage{a4wide}            % correta formatacao da paina em A4
+% instalar pacote %\usepackage{setspace}          % para a distancia entre linhas
+
+
+\pagestyle{headings}
+%\pagestyle{fancy}
+
+%\listfiles
+%
+%\setlength{\hoffset}{-1mm}    % margem horizontal esquerda
+
+\setlength{\voffset}{-15pt}    % margem vertical superior
+
+
+\makeindex   % para a geracao do indice remissivo, em ordem alfabetica, obvio
+
+
+\begin{document}
+
+\pagenumbering{arabic} % a partir de onde, na pagina, voce insere este comando, ele comecam a fazer a contagem das paginas
+
+%\pagenumbering{roman}
+
+\thispagestyle{empty}  %este comando elimina o numero de pagina 1 do desta pagina (Sumario)
+\begin{center}
+
+
+\vspace{35mm}
+
+\LaTeX{} \\PARA PREPARAÇÃO DE DOCUMENTOS CIENTÍFICOS
+
+\vspace{35mm}
+
+ERS
+
+\vspace{35mm}
+
+
+
+
+\vspace{25mm}
+
+
+\end{center}
+
+
+
+\newpage
+%asdasd
+\vspace{50mm}
+
+% pagina de dedicatoria / agradecimentos
+
+\thispagestyle{empty}
+\begin{flushright}
+
+
+\begin{minipage}[t]{8cm}
+``Só quem é movido exclusivamente pela causa que lhe interessa escreve o que é digno de ser escrito`` \\ \\Arthur Schopenhauer
+\end{minipage}
+\vspace{30mm}
+
+\end{flushright}
+
+
+
+\vspace{35mm}
+
+
+
+\begin{figure}[!htb]
+        \centering
+        \includegraphics[scale=1]{sonsorol.png}
+%        \caption{}
+%	\label{}
+\end{figure}
+
+
+
+
+
+
+\newpage
+\thispagestyle{empty} 
+
+\vspace{20mm}
+
+\begin{center}
+Este documento é distribuído através da Licença Creative Commons 
+\begin{figure}[!htb]
+        \centering
+        \includegraphics[scale=1]{somerights20pt.png}
+
+\end{figure}
+\end{center}
+
+
+\vspace{15mm}
+\begin{flushleft}
+
+O utilizador pode:
+
+\vspace{5mm}
+
+    * copiar, distribuir, exibir e executar a obra\\
+    * criar obras derivadas\\
+    * fazer uso comercial da obra\\
+
+\vspace{5mm}
+
+Sob as seguintes condições:
+\paragraph{Atribuição} O utilizador deve dar crédito ao autor original, da forma especificada pelo autor ou licenciante.
+
+\vspace{5mm}
+
+    * Para cada reutilização ou distribuição, deverá deixar claro para outros os termos da licença desta obra.\\
+    * Qualquer uma destas condições podem ser renunciadas, desde que obtenha permissão por parte do autor.
+
+\vspace{5mm}
+
+Licença na íntegra: http://creativecommons.org/licenses/by/2.5/br/
+
+
+\end{flushleft}
+
+
+
+
+
+\thispagestyle{empty}  %este comando elimina o numero de pagina 1 do desta pagina (Sumario)
+\setcounter{page}{4}
+
+\tableofcontents   % aqui imprime o sumario
+
+
+% Definindo Figuras
+\newpage
+\thispagestyle{empty}
+\addcontentsline{toc}{section}{LISTA DE FIGURAS}
+%\renewcommand{\listfigurename}
+%{\begin{center} LISTA DE FIGURAS \end{center}
+\listoffigures
+%\addcontentsline{toc}{chapter}{dds}
+
+
+
+%\begin{figure}[!htb]
+%        \centering
+%        \includegraphics[scale=1]{motivacao_desenv.png}
+%        \caption{Razões de desenvolvimento e/ou distribuição de SL/CA, respondido por desenvolvedores.}
+%	\label{testef}
+%\end{figure}
+
+
+\begin {flushleft}  % faz alinhar todo o texto do documento A ESQUERDA
+
+
+
+
+\chapter{Introdução} 
+
+\section{Objetivos}
+
+\section{Motivação}
+
+\section{Apresentação}
+
+
+
+\chapter{História e Contexto} 
+
+\section{Origem}
+
+\section{Evolução}
+
+\chapter{O \LaTeX{} funcionando} 
+
+\section{Instalação} 
+\subsection{Ubuntu e Slackware} 
+
+\index{Ubuntu}
+
+\index{Slackware}
+
+
+\subsection{Outras distribuições Linux} 
+
+
+\subsection{Windows XP/2000} 
+
+
+\index{Windows XP}
+\index{Windows 2000}
+
+\section{Rodando o \LaTeX{}} 
+ 
+\chapter{Preparação de documentos em \LaTeX{}} 
+\section{Estrutura básica}
+\section{Preâmbulo}
+\section{Construindo um documento}
+\section{Modo texto e modo matemático}
+\section{Inserindo imagens}
+\section{Inserindo tabelas}
+
+
+\chapter{Softwares \LaTeX{}} 
+
+\section{Processadores para o \LaTeX{}}
+
+
+\subsection{TeTeX}
+
+TeTeX \footnote{http://www.tug.org/tetex/} \index{TeTeX}
+
+teTeX is a complete TeX distribution for UNIX compatible systems, maintained by me,  Thomas Esser. It is based on the web2c distribution which is currently maintained by Olaf Weber.
+
+My main aims when putting this distribution together have been:
+
+    * provide a TeX system that consists only of Free Software
+    * create something simple to install, use and maintain
+    * include as much useful documentation as possible
+    * test as much as possible and try to avoid bugs 
+
+\subsection{MikTeX}
+
+MikTeX \footnote{http://www.miktex.org/} \index{MikTeX}
+
+ About MiKTeX
+
+MiKTeX (pronounced mick-tech) is an up-to-date implementation of TeX and related programs for Windows (all current variants) on x86 systems. TeX is a typesetting system invented by Donald E. Knuth.
+
+MiKTeXs main features include:
+
+    * easy to install
+    * complete: 1300 packages (fonts, macros, ...) are included
+    * living: packages are updated regularily (last update: 11/19/2006 )
+    * easy package management: missing packages can be installed automatically; a wizard helps you to keep your MiKTeX system up-to-date
+    * fast previewing: the TeX output viewer Yap allows for an optimized edit-compile-view cycle (if the TeX authoring system in use supports source specials)
+    * MiKTeX is open source
+
+The MiKTeX distribution consists of the following components:
+
+    * TeX: the classic TeX compiler
+    * pdfTeX, e-TeX, pdf-e-TeX, Omega, NTS: various TeX variants
+    * Dvipdfm/Dvipdfmx: converts TeX output into PDF documents
+    * MetaPost: converts picture specifications into PostScript commands
+    * a complete set of macro packages and fonts (e.g., ConTeXt, LaTeX, ...)
+    * Yap: a viewer for TeX output
+    * TeXify: a TeX compiler driver
+    * MiKTeX Options: assists in configuring MiKTeX
+    * Lots of utilities: tools for the creation of bibliographies & indexes, PostScript utilities, and more.
+
+MiKTeX is a free TeX distribution. You are welcome to redistribute MiKTeX under certain conditions. 
+
+\section{Editores \LaTeX{}}
+
+\subsection{Kile}
+Kile -- an integrated LaTeX environment. 
+Kile \footnote{http://kile.sourceforge.net/} \index{Kile}
+
+
+Kile is a user friendly TeX/LaTeX editor for the KDE desktop environment. KDE is available for many architectures such as PC, PowerPC (Mac for example) and SPARC.
+
+The main features are:
+
+    * Compile, convert and view your document with one click.
+    * Auto-completion of (La)TeX commands
+    * Templates and wizards makes starting a new document very little work.
+    * Easy insertion of many standard tags and symbols and the option to define (an arbitrary number of) user defined tags.
+    * Inverse and forward search: click in the DVI viewer and jump to the corresponding LaTeX line in the editor, or jump from the editor to the corresponding page in the viewer.
+    * Finding chapter or sections is very easy, Kile constructs a list of all the chapter etc. in your document. You can use the list to jump to the corresponding section.
+    * Collect documents that belong together into a project.
+    * Easy insertion of citations and references when using projects.
+    * Flexible and smart build system to compile your LaTeX documents.
+    * QuickPreview, preview a selected part of your document.
+    * Easy access to various help sources.
+    * Advanced editing commands.
+
+
+\subsection{Lyx}
+
+Lyx -- The Document Processor \footnote{http://www.lyx.org/} \index{Lyx}
+
+\vspace{3mm}
+ LyX is a document processor that encourages an approach to writing based on the structure of your documents, not their appearance. It is released under a Free Software / Open Source license.
+
+LyX is for people that write and want their writing to look great, right out of the box. No more endless tinkering with formatting details, ``finger painting`` font attributes or futzing around with page boundaries. You just write. In the background, Prof. Knuth's legendary TeX typesetting engine makes you look good.
+
+On screen, LyX looks like any word processor; its printed output -- or richly cross-referenced PDF, just as readily produced -- looks like nothing else. Gone are the days of industrially bland .docs, all looking similarly not-quite-right, yet coming out unpredictably different on different printer drivers. Gone are the crashes ``eating`` your dissertation the evening before going to press.
+
+LyX is stable and fully featured. It is a multi-platform, fully internationalized application running natively on Unix/Linux and the Macintosh and modern Windows platforms.
+But where did it come from?
+
+LyX is designed for scientists by scientists, and it shows, in world-class support for math and structured document creation. Such staples of scientific authoring as reference list and index creation come standard. But you don`t have to be a scientist: with LyX you create just as easily a letter or a novel or a theatre play or film script. A broad array of ready, well designed document layouts and style modification and feature support packages are built in. 
+
+
+\subsection{LaTex Editor}
+
+LaTeX Editor \footnote{http://www.latexeditor.org/} \index{Latex Editor}, called later LEd, is a free environment for rapid TeX and LaTeX document development.
+
+Patch solving the build-in DVI viewer problem under MiKTeX 2.5 was released on 05 Nov. 2006!
+
+LaTeX Editor is designed to work on Windows® 95/98/Me/NT4/2000/XP/2003 operating systems. LEd`s capabilities vary according to the operating system used, e.g., Visual Styles from Windows® XP. It, however, works with almost all functionality also on Windows® 95.
+
+LEd offers a project manager, powerful editor, integrated spellchecker and thesaurus, build-in DVI viewer, descriptive hints for LaTeX commands, code complete mechanism, word wrapping, code folding, multilingual environment, and more. Nevertheless, LaTeX Editor is a small program. The whole package without thesauri data occupies only 6 MB of disk space, while the fully functional version for one language needs about 2.0 MB. Please go to the overview page if you are interested in a more detailed description of LEd.
+LEd Main Window
+
+This program is freeware. You may use it free of charge. Notice, however, that it is not public domain, so LEd's authors have copyrights (see the licence for details). Some parts of the application, e.g., word lists for the spellchecker, come from other people, so please go to the credits page for a list of contributors to whom we are grateful.
+
+
+
+
+\subsection{TeXnicCenter}
+
+TeXnicCenter \footnote{http://www.texniccenter.org/} \index{TeXnicCenter} is a feature rich integrated development environment (IDE) for developing LaTeX-documents on Microsoft Windows (Windows 9x/ME, NT/2000/XP) freely available under GPL.
+
+IDE means the integration of all the tools, needed to develop documents with LaTeX, into just one application. You have the editor to write your LaTeX files with, you can start the building process just by choosing a menu item and the output of the LaTeX compiler is written to a window of TeXnicCenter and analyzed, so that you can simply jump from one error, warning or bad box to another one.
+
+Also viewing the generated output is easy with TeXnicCenter. Just choose a menu item and the correct viewer application will be started and if supported by the viewer, the output will be displayed at the position belonging to the current source position in TeXnicCenter.
+
+And the best: TeXnicCenter is distributed as open source under the terms of the GNU General Public License (GPL) and is consequently available for free.
+
+TeXnicCenter's aim is to support the LaTeX-newbie by providing him the most important LaTeX constructs via menu and by abstracting the use of the LaTeX compiler and other tools like MakeIndex and BibTeX and even support the LaTeX-pro by providing a powerfull, fully customizable integrated environment.
+
+To avoid misunderstandings: TeXnicCenter is not a WYSIWYG (what you see is what you get) interface for LaTeX and will never be, because we think that providing such an interface for LaTeX can not benefit from the advantages of LaTeX.
+
+
+
+\subsection{Texmaker}
+
+Texmaker \footnote{http://www.xm1math.net/texmaker/} \index{Texmaker} is a free LaTeX editor, that integrates many tools needed to develop documents with LaTeX, in just one application.
+Texmaker runs on unix, macosx and windows systems and is released under the GPL license .
+(Note for windows users : Texmaker is a real free software. The code source can be downloaded and modified by everyone).
+
+Features
+
+    * an unicode editor to write your LaTeX source files (syntax highlighting, undo-redo, search-replace, spell checker...)
+    * the principal LaTex tags can be inserted directly with the "LaTeX" and ``Math`` menus
+    * 370 mathematical symbols can be inserted in just one click
+    * wizards to generate code ('Quick document', 'Quick letter', tabular, tabbing and array environments)
+    * LaTeX-related programs can be launched via the "Tools" menu
+    * the standard Bibtex entry types can be inserted in the ".bib" file with the "Bibliography" menu
+    * a "structure view" of the document for easier navigation of a document (by clicking on an item in the "Structure" frame, you can jump directly to the corresponding part of your document
+    * extensive LaTeX documentation
+    * in the "Messages / Log File" frame, you can see information about processes and the logfile after a LaTeX compilation
+    * the "Next Latex Error" and "Previous Latex Error" commands let you reach the LaTeX errors detected in the log file
+    * by clicking on the number of a line in the log file, the cursor jumps to the corresponding line in the editor
+    * an integrated LaTeX to html conversion tool
+
+
+\chapter{Expansão para o \LaTeX{}} 
+
+\section{Pacotes mais utilizados}
+
+Makeindex, BibTeX, Beamer, Geometry
+
+\section{Pacotes específicos}
+
+\section{Pacotes mais curiosos}
+
+\section{Construindo o seu pacote}
+
+\chapter{Onde aprender \LaTeX{}} 
+
+aqui podemos inserir informacoes de TUG\index{TUG}, latex-project.org, ctan.org\index{CTAN}, outros arquivos-livros em pdf importantes, assim como o tex-book.
+
+
+\chapter{Considerações Finais} 
+
+
+Estas são as considerações finais.
+
+ 
+\begin{thebibliography}{99}
+
+\addcontentsline{toc}{chapter}{Bibliografia}
+
+
+\bibitem{bazar} \textbf {TeX Users Group}. Disponivel em: <http://www.tug.org/>.  Acesso em: 21 novembro 2006.
+
+
+
+\end{thebibliography}
+
+
+\end {flushleft}  % fim de alinhamento de todo documento A ESQUERDA
+
+
+
+\appendix  %  comando que gera o Apendice no Sumario
+
+% anexo A
+\newpage
+\thispagestyle{empty}
+%\addcontentsline{toc}{chapter}{Anexo A -- Licença CC-GNU GPL}
+\chapter{-- Software Livre X Software Proprietário}
+
+ \include{anexoA}
+
+% anexo B
+\newpage
+\thispagestyle{empty}
+%\addcontentsline{toc}{chapter}{Anexo B -- Dicas e Diretrizes para se Iniciar um Projeto de Software Livre}
+
+\chapter{-- Licença Creative Commons}
+
+  \include{anexoB}
+
+% fim
+
+
+\chapter{Índice Remissivo} % o comando \printindex faz aparecer no sumario Indice Remissivo
+
+\printindex    % cria o indice remissivo, lembrar de ver se o pacote tá declarado
+
+
+
+
+\end{document}

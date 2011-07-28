@@ -1,0 +1,43 @@
+\select@language {brazil}
+\contentsline {paragraph}{Atribui\c c\~ao}{3}
+\contentsline {section}{LISTA DE FIGURAS}{7}
+\contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{9}
+\contentsline {section}{\numberline {1.1}Objetivos}{9}
+\contentsline {section}{\numberline {1.2}Motiva\c c\~ao}{9}
+\contentsline {section}{\numberline {1.3}Apresenta\c c\~ao}{9}
+\contentsline {chapter}{\numberline {2}Hist\'oria e Contexto}{11}
+\contentsline {section}{\numberline {2.1}Origem}{11}
+\contentsline {section}{\numberline {2.2}Evolu\c c\~ao}{11}
+\contentsline {chapter}{\numberline {3}O \textlatin {\LaTeX }{} funcionando}{13}
+\contentsline {section}{\numberline {3.1}Instala\c c\~ao}{13}
+\contentsline {subsection}{\numberline {3.1.1}Ubuntu e Slackware}{13}
+\contentsline {subsection}{\numberline {3.1.2}Outras distribui\c c\~oes Linux}{13}
+\contentsline {subsection}{\numberline {3.1.3}Windows XP/2000}{13}
+\contentsline {section}{\numberline {3.2}Rodando o \textlatin {\LaTeX }{}}{13}
+\contentsline {chapter}{\numberline {4}Prepara\c c\~ao de documentos em \textlatin {\LaTeX }{}}{15}
+\contentsline {section}{\numberline {4.1}Estrutura b\'asica}{15}
+\contentsline {section}{\numberline {4.2}Pre\^ambulo}{15}
+\contentsline {section}{\numberline {4.3}Construindo um documento}{15}
+\contentsline {section}{\numberline {4.4}Modo texto e modo matem\'atico}{15}
+\contentsline {section}{\numberline {4.5}Inserindo imagens}{15}
+\contentsline {section}{\numberline {4.6}Inserindo tabelas}{15}
+\contentsline {chapter}{\numberline {5}Softwares \textlatin {\LaTeX }{}}{17}
+\contentsline {section}{\numberline {5.1}Processadores para o \textlatin {\LaTeX }{}}{17}
+\contentsline {subsection}{\numberline {5.1.1}TeTeX}{17}
+\contentsline {subsection}{\numberline {5.1.2}MikTeX}{17}
+\contentsline {section}{\numberline {5.2}Editores \textlatin {\LaTeX }{}}{18}
+\contentsline {subsection}{\numberline {5.2.1}Kile}{18}
+\contentsline {subsection}{\numberline {5.2.2}Lyx}{18}
+\contentsline {subsection}{\numberline {5.2.3}LaTex Editor}{19}
+\contentsline {subsection}{\numberline {5.2.4}TeXnicCenter}{19}
+\contentsline {subsection}{\numberline {5.2.5}Texmaker}{20}
+\contentsline {chapter}{\numberline {6}Expans\~ao para o \textlatin {\LaTeX }{}}{21}
+\contentsline {section}{\numberline {6.1}Pacotes mais utilizados}{21}
+\contentsline {section}{\numberline {6.2}Pacotes espec\IeC {\'\i }ficos}{21}
+\contentsline {section}{\numberline {6.3}Pacotes mais curiosos}{21}
+\contentsline {section}{\numberline {6.4}Construindo o seu pacote}{21}
+\contentsline {chapter}{\numberline {7}Onde aprender \textlatin {\LaTeX }{}}{23}
+\contentsline {chapter}{\numberline {8}Considera\c c\~oes Finais}{25}
+\contentsline {chapter}{Bibliografia}{27}
+\contentsline {chapter}{\numberline {A}-- Software Livre X Software Propriet\'ario}{29}
+\contentsline {chapter}{\numberline {B}-- Licen\c ca Creative Commons}{31}
